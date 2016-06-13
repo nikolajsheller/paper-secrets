@@ -9,11 +9,18 @@ This project splits the secret into fragments using Shamir Secret Sharing, allow
 
 Recovery can be done by scanning or photographing the required number of fragments to restore the secret, and by using this project to recreate the secret file.
 
-The store file can be test or binary, and may be e.g. a password, text file with a will, pgp or ssh key or any other small secret.
+The file stored as a paper secret, can be text or binary, and may be e.g. a password, text file with a will, pgp or ssh key or any other small secret.
 
 # Dependencies
 
-#https://github.com/shea256/secret-sharing
+https://github.com/shea256/secret-sharing
 python-reportlab
 python-qrcode
 python-qrtools
+
+# Getting Startd
+
+cd src
+git clone https://github.com/shea256/secret-sharing
+
+
